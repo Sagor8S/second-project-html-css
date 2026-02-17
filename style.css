@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+.present{
+   display: flex;
+   justify-content: space-between;
+   padding: 15px;
+}
+
+.logo{
+    font-size: 55px;
+    font-style: italic;
+    color: blueviolet;
+}
+
+.navigatiion a{
+    font-size: 20px;
+    margin: 20px 0 15px 0;
+    text-decoration: none;
+    padding: 30px;
+}
+
+
+.navigatiion a:hover{
+    color:rgb(222, 23, 23);
+    /* text-decoration: underline; */
+    transition: .9s;
+}
+
+h4{
+    text-align: center;
+    font-size: 55px;
+    font-style: italic;
+    color: tomato;
+    padding: 20px;
+    background-color: rgb(114, 64, 64);
+}
+
+.present-main{
+    font-weight: 50px;
+    font-size: 15px;
+    background-image: url('image/programming2.png');
+    background-repeat: no-repeat;
+    text-align: justify;
+    background-size: cover;
+}
+
+.but{
+    padding: 12px;
+    font-size: 20px;
+}
+
+.present-footer p{
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    background-color: rgb(215, 217, 219);
+}
