@@ -2,7 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: monospace;
+    font-family: 'Poppins', sans-serif;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #081b29;
 }
 
 .present{
@@ -31,29 +38,18 @@
     transition: .9s;
 }
 
-h4{
-    text-align: center;
-    font-size: 55px;
-    font-style: italic;
-    color: tomato;
-    padding: 20px;
-    background-color: rgb(114, 64, 64);
-}
-
-.present-main{
-    font-weight: 50px;
-    font-size: 15px;
-    background-image: url('image/programming2.png');
-    background-repeat: no-repeat;
-    text-align: justify;
-    background-size: cover;
-}
 
 .but{
     padding: 12px;
     font-size: 20px;
 }
 
+/* login code hare */
+
+
+
+
+ /* footer code start hare */
 .present-footer p{
     text-align: center;
     padding: 20px;
